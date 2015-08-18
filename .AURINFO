@@ -1,0 +1,22 @@
+pkgbase = zile-git
+	pkgdesc = Zile Implements Lua Editors
+	pkgver = 3.840.g4b716fd
+	pkgrel = 2
+	url = http://www.gnu.org/software/zile/
+	arch = any
+	license = GPL3
+	makedepends = git
+	makedepends = emacs
+	makedepends = help2man
+	makedepends = specl
+	makedepends = ldoc
+	depends = lua
+	depends = lua-stdlib
+	depends = lua-posix
+	depends = lua-alien
+	depends = lrexlib
+	provides = zile
+	source = git://git.savannah.gnu.org/zile.git
+
+pkgname = zile-git
+
